@@ -1,6 +1,6 @@
-#React-redux-movies
+# React-redux-movies
 
-Demo - https://react-redux-movies-beige.vercel.app/
+Demo - https://react-redux-movies-tau.vercel.app/
 
 ## Stack : 
 + **Axios**
