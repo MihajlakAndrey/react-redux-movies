@@ -44,7 +44,7 @@ export const TMBD_Api = createApi({
       query: (movie_id) => `movie/${movie_id}/credits?api_key=${API_KEY}&language=en-US`,
     }),
     getSimilarMovies: builder.query<FetchingMoviesDataType, number>({
-      query: (movie_id) => `movie/${movie_id}/recommendations?api_key=${API_KEY}&language=en-US&page=1`,
+      query: (movie_id) => `movie/${movie_id}/similar?api_key=${API_KEY}&language=en-US&page=1`,
     }),
     getNowWatchingMovies: builder.query<FetchingMoviesDataType, void>({
       query: () => `movie/now_playing?api_key=${API_KEY}&language=en-US&page=1`,
